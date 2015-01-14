@@ -4,7 +4,31 @@
   angular.module('angryjs.strings', [])
 
     .factory('Strings', function () {
-      var nodiac = { 'á': 'a', 'č': 'c', 'ď': 'd', 'é': 'e', 'ě': 'e', 'í': 'i', 'ň': 'n', 'ó': 'o', 'ř': 'r', 'š': 's', 'ť': 't', 'ú': 'u', 'ů': 'u', 'ý': 'y', 'ž': 'z' };
+      var nodiac = {
+        'á': 'a',
+        'ą': 'a',
+        'č': 'c',
+        'ć': 'c',
+        'ď': 'd',
+        'é': 'e',
+        'ě': 'e',
+        'ę': 'e',
+        'í': 'i',
+        'ł': 'l',
+        'ň': 'n',
+        'ń': 'n',
+        'ó': 'o',
+        'ř': 'r',
+        'š': 's',
+        'ś': 's',
+        'ť': 't',
+        'ú': 'u',
+        'ů': 'u',
+        'ý': 'y',
+        'ž': 'z',
+        'ź': 'z',
+        'ż': 'z'
+      };
       var Strings = function () {};
 
       Strings.prototype.webalize = function (s) {
